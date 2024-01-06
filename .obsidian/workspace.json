@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "19c03c53586adf0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "30762f0530959909",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2037fd8313330a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9507d76ff6e0c7d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b83f801d7371833d",
+    "type": "split",
+    "children": [
+      {
+        "id": "16fff1c82d650650",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "882c6b2a208acd7a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "53d155a5edacd528",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d29af7de86d0ca80",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dc7740e8cbe54863",
+    "type": "split",
+    "children": [
+      {
+        "id": "d93e805ebeb38dc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8d49c348aebc31a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "facb05c5212bc750",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03810a7c0c409e84",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5dbbb4a455a70ee0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md"
+              }
+            }
+          },
+          {
+            "id": "b6954286b323742f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自控力/about book.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "28030e1496bfe4f6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自控力/about book.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0579eda2ec8cce72",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自控力/about book.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a816ddb0cf4e7596",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 415.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "9507d76ff6e0c7d2",
+  "lastOpenFiles": [
+    "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
+    "Welcome.md",
+    "README.md",
+    "自控力/about book.md",
+    "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/“那又如何”效应：为什么罪恶感不起作用？.md",
+    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/我们为什么会有意志力？.md",
+    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/训练大脑，增强意志力.md",
+    "自控力/一个被插入的介绍.md",
+    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/两个自我导致的问题.md",
+    "自控力/03　累到无力抵抗：为什么自控力和肌肉一样有极限？/为什么自控力存在局限？.md",
+    "枪炮、病菌与钢铁/第二部分 粮食生产的出现和传播/第六章 种田还是不种田.md",
+    "自控力/鸣谢.md",
+    "自控力/10　结语.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/本章总结.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/对内接受自我，对外控制行动.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/请勿吸烟.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/别吃那个苹果.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/我不想有这种感觉.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/这难道不讽刺吗？.md",
+    "自控力/09　别读这章：“我不要”力量的局限性/09　别读这章：“我不要”力量的局限性.md",
+    "自控力/09　别读这章：“我不要”力量的局限性",
+    "自控力/08　传染：为什么意志力会传染？/本章总结.md",
+    "自控力/08　传染：为什么意志力会传染？/“我应该”的力量.md",
+    "自控力/08　传染：为什么意志力会传染？/群体的一员.md",
+    "自控力/08　传染：为什么意志力会传染？/社会中的个人.md",
+    "自控力/08　传染：为什么意志力会传染？/传染病的传播.md",
+    "自控力/08　传染：为什么意志力会传染？/08　传染：为什么意志力会传染？.md",
+    "自控力/08　传染：为什么意志力会传染？",
+    "自控力/07　出售未来：及时享乐的经济学",
+    "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？",
+    "自控力/05　大脑的弥天大谎：为什么我们误把渴望当幸福？",
+    "自控力/04　容忍罪恶：为何善行之后会有恶行？",
+    "自控力/03　累到无力抵抗：为什么自控力和肌肉一样有极限？",
+    "自控力/02　意志力的本能：人生来就能抵制奶酪蛋糕的诱惑",
+    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？",
+    "自控力/导言　欢迎阅读意志力入门",
+    "自控力/images/Image00007.jpg",
+    "自控力/images/Image00004.jpg",
+    "自控力/images/Image00005.jpg",
+    "自控力/images/Image00003.jpg",
+    "自控力/images/Image00002.jpg",
+    "自控力/images/Image00000.jpg",
+    "自控力/images/Image00001.jpg",
+    "Projects Screenshot.png",
+    "枪炮、病菌与钢铁/images/cover00271.jpeg",
+    "茶杯里的风暴/images/cup.png"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "tag": "book",
+  "libraries": [
+    "C:\\Users\\aoout\\Documents\\epubs"
+  ],
+  "byDrag": false,
+  "savePath": "",
+  "assetsPath": "{{savePath}}/{{bookName}}/images",
+  "granularity": 1,
+  "mocName": "about book",
+  "mocPropertysTemplate": "title: {{bookName}}\nauthor: {{author}}\npublisher: {{publisher}}\nstatus: false\nsorting-spec: \"target-folder: {{bookName}}/*\\n< a-z by-metadata: created_time\"",
+  "notePropertysTemplate": "created_time: {{created_time}}",
+  "imageFormat": "![[imagePath]]",
+  "autoOpenRightPanel": true,
+  "allbooks": false,
+  "removeDuplicateFolders": false
+}
