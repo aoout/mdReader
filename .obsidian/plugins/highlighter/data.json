@@ -2,5 +2,6 @@
   "boxTags": [
     "book"
   ],
-  "boxType": "MOC"
+  "boxType": "MOC",
+  "template": ">{{highlight}}"
 }

@@ -4,35 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "30762f0530959909",
+        "id": "06df4d73d99d000c",
         "type": "tabs",
         "children": [
           {
-            "id": "b2037fd8313330a5",
+            "id": "1ebf543450e0d45b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
+                "file": "BOOKS/sortspec.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9507d76ff6e0c7d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "BOOKS/sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "BOOKS/sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,72 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "BOOKS/sortspec.md"
               }
-            }
-          },
-          {
-            "id": "b6954286b323742f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自控力/about book.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "28030e1496bfe4f6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自控力/about book.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "0579eda2ec8cce72",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自控力/about book.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a816ddb0cf4e7596",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -222,53 +150,52 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9507d76ff6e0c7d2",
+  "active": "882c6b2a208acd7a",
   "lastOpenFiles": [
-    "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
     "Welcome.md",
+    "BOOKS/sortspec.md",
     "README.md",
-    "自控力/about book.md",
-    "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/“那又如何”效应：为什么罪恶感不起作用？.md",
-    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/我们为什么会有意志力？.md",
-    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/训练大脑，增强意志力.md",
-    "自控力/一个被插入的介绍.md",
-    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/两个自我导致的问题.md",
-    "自控力/03　累到无力抵抗：为什么自控力和肌肉一样有极限？/为什么自控力存在局限？.md",
-    "枪炮、病菌与钢铁/第二部分 粮食生产的出现和传播/第六章 种田还是不种田.md",
-    "自控力/鸣谢.md",
-    "自控力/10　结语.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/本章总结.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/对内接受自我，对外控制行动.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/请勿吸烟.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/别吃那个苹果.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/我不想有这种感觉.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/这难道不讽刺吗？.md",
-    "自控力/09　别读这章：“我不要”力量的局限性/09　别读这章：“我不要”力量的局限性.md",
-    "自控力/09　别读这章：“我不要”力量的局限性",
-    "自控力/08　传染：为什么意志力会传染？/本章总结.md",
-    "自控力/08　传染：为什么意志力会传染？/“我应该”的力量.md",
-    "自控力/08　传染：为什么意志力会传染？/群体的一员.md",
-    "自控力/08　传染：为什么意志力会传染？/社会中的个人.md",
-    "自控力/08　传染：为什么意志力会传染？/传染病的传播.md",
-    "自控力/08　传染：为什么意志力会传染？/08　传染：为什么意志力会传染？.md",
-    "自控力/08　传染：为什么意志力会传染？",
-    "自控力/07　出售未来：及时享乐的经济学",
-    "自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？",
-    "自控力/05　大脑的弥天大谎：为什么我们误把渴望当幸福？",
-    "自控力/04　容忍罪恶：为何善行之后会有恶行？",
-    "自控力/03　累到无力抵抗：为什么自控力和肌肉一样有极限？",
-    "自控力/02　意志力的本能：人生来就能抵制奶酪蛋糕的诱惑",
-    "自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？",
-    "自控力/导言　欢迎阅读意志力入门",
-    "自控力/images/Image00007.jpg",
-    "自控力/images/Image00004.jpg",
-    "自控力/images/Image00005.jpg",
-    "自控力/images/Image00003.jpg",
-    "自控力/images/Image00002.jpg",
-    "自控力/images/Image00000.jpg",
-    "自控力/images/Image00001.jpg",
     "Projects Screenshot.png",
-    "枪炮、病菌与钢铁/images/cover00271.jpeg",
-    "茶杯里的风暴/images/cup.png"
+    "BOOKS/枪炮、病菌与钢铁/枪炮、病菌与钢铁.md",
+    "BOOKS/茶杯里的风暴/茶杯里的风暴.md",
+    "BOOKS",
+    "BOOKS/枪炮、病菌与钢铁/封面.md",
+    "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
+    "BOOKS/自控力/自控力.md",
+    "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/关于进步的问题.md",
+    "BOOKS/自控力/07　出售未来：及时享乐的经济学/遇见未来的自己.md",
+    "BOOKS/自控力/07　出售未来：及时享乐的经济学/该等待的时候，该屈服的时候.md",
+    "BOOKS/自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/我们为什么会有意志力？.md",
+    "BOOKS/枪炮、病菌与钢铁/第一部分 从伊甸园到卡哈马卡/第二章 历史的自然实验.md",
+    "BOOKS/枪炮、病菌与钢铁/第四部分 在5章中环游世界/第十八章 两个半球的碰撞.md",
+    "BOOKS/自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？.md",
+    "BOOKS/茶杯里的风暴/致谢.md",
+    "BOOKS/茶杯里的风暴/第9章 不同的视角/文明.md",
+    "BOOKS/茶杯里的风暴/第9章 不同的视角/地球.md",
+    "BOOKS/茶杯里的风暴/第9章 不同的视角/人体.md",
+    "BOOKS/茶杯里的风暴/第9章 不同的视角/第9章 不同的视角.md",
+    "BOOKS/茶杯里的风暴/第9章 不同的视角",
+    "BOOKS/茶杯里的风暴/第8章 异性相吸 -电与磁-/最后一块拼图.md",
+    "BOOKS/茶杯里的风暴/第8章 异性相吸 -电与磁-/指南针和大陆漂移.md",
+    "BOOKS/茶杯里的风暴/第8章 异性相吸 -电与磁-/又是烤面包机.md",
+    "BOOKS/茶杯里的风暴/第8章 异性相吸 -电与磁-/祖父的盒子和一段科学史.md",
+    "BOOKS/茶杯里的风暴/第8章 异性相吸 -电与磁-/热茶水和电流.md",
+    "BOOKS/茶杯里的风暴/第8章 异性相吸 -电与磁-",
+    "BOOKS/茶杯里的风暴/第7章 勺子、旋涡和“伴侣号” -旋转定律-",
+    "BOOKS/茶杯里的风暴/第6章 鸭子为什么不会脚冷 -原子之舞-",
+    "BOOKS/茶杯里的风暴/第5章 涟漪的故事 -从水波到无线网络-",
+    "BOOKS/茶杯里的风暴/第4章 时光中的一瞬 -走向平衡-",
+    "BOOKS/茶杯里的风暴/第3章 小即是美 -表面张力和黏度-",
+    "BOOKS/茶杯里的风暴/第2章 有升必有落 -重力-",
+    "BOOKS/茶杯里的风暴/第1章 爆米花和火箭 -气体定律-",
+    "BOOKS/茶杯里的风暴/images/cup.png",
+    "BOOKS/茶杯里的风暴/images/cover.jpeg",
+    "BOOKS/茶杯里的风暴/images/00j.jpg",
+    "BOOKS/茶杯里的风暴/images/00s.jpg",
+    "BOOKS/枪炮、病菌与钢铁/images/image00375.jpeg",
+    "BOOKS/枪炮、病菌与钢铁/images/image00374.jpeg",
+    "BOOKS/枪炮、病菌与钢铁/images/image00373.jpeg",
+    "BOOKS/枪炮、病菌与钢铁/images/image00372.jpeg",
+    "BOOKS/枪炮、病菌与钢铁/images/image00371.jpeg"
   ]
 }

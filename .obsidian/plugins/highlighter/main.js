@@ -32,7 +32,8 @@ var import_obsidian4 = __toModule(require("obsidian"));
 // src/settings/settings.ts
 var DEFAULT_SETTINGS = {
   boxTags: ["HighlightBox"],
-  boxType: "MOC"
+  boxType: "MOC",
+  template: "{{highlight}}"
 };
 
 // src/lib/HighlightBox.ts
@@ -165,6 +166,10 @@ var HighlighterSettingsTab = class extends import_obsidian3.PluginSettingTab {
       this.plugin.settings.boxType = value;
       await this.plugin.saveSettings();
     }));
+    new import_obsidian3.Setting(containerEl).setName("Template").setDesc("The tags that will be added to the imported books.").addTextArea((text) => text.setValue(this.plugin.settings.template).onChange(async (value) => {
+      this.plugin.settings.template = value;
+      await this.plugin.saveSettings();
+    }));
   }
 };
 
@@ -187,15 +192,15 @@ var HighlightsBuilder = class {
     });
     return map;
   }
-  static map2markdown(map) {
+  static map2markdown(map, template) {
     let markdown = "";
     map.forEach((value, key) => {
       markdown += `## ${key}
 
 `;
       value.forEach((item) => {
-        markdown += `${item.content}
-`;
+        markdown += template.replace("{{highlight}}", item.content);
+        markdown += "\n";
         if (item.comment) {
           markdown += `@
 ${item.comment}
@@ -206,7 +211,7 @@ ${item.comment}
     });
     return markdown;
   }
-  static markdown2map(markdown) {
+  static markdown2map(markdown, template) {
     const map = new Map();
     const notes = markdown.split("## ").splice(1);
     notes.forEach((note) => {
@@ -214,7 +219,10 @@ ${item.comment}
       const highlights = note.split("\n\n").splice(1).filter((highlight3) => highlight3);
       const items = [];
       highlights.forEach((highlight3) => {
-        const content = highlight3.split("\n")[0];
+        console.log(highlight3.split("\n")[0]);
+        const content = highlight3.split("\n")[0].replaceAll(new RegExp(`${template.replaceAll(/[.*+?^${}()|[\]\\]/g, "\\$&").replaceAll(/\\{\\{highlight\\}\\}/g, "(.*)")}`, "g"), "$1");
+        console.log(template.replaceAll(/[.*+?^${}()|[\]\\]/g, "\\$&").replaceAll(/\\{\\{highlight\\}\\}/g, "(.*)"));
+        console.log(content);
         const comment = highlight3.split(content).splice(1).join("\n").split("@\n")[1];
         items.push({
           content,
@@ -298,12 +306,12 @@ var HighlighterPlugin = class extends import_obsidian4.Plugin {
         box.getHighlights().then((highlights) => {
           const map = HighlightsBuilder.highlights2map(highlights);
           if (!highlightsFile) {
-            this.app.vault.create(highlightsPath, HighlightsBuilder.map2markdown(map));
+            this.app.vault.create(highlightsPath, HighlightsBuilder.map2markdown(map, this.settings.template));
           } else {
             this.app.vault.read(highlightsFile).then((content) => {
-              const mapOld = HighlightsBuilder.markdown2map(content);
+              const mapOld = HighlightsBuilder.markdown2map(content, this.settings.template);
               const mapNew = HighlightsBuilder.mergeComments(mapOld, map);
-              this.app.vault.modify(highlightsFile, HighlightsBuilder.map2markdown(mapNew));
+              this.app.vault.modify(highlightsFile, HighlightsBuilder.map2markdown(mapNew, this.settings.template));
             });
           }
         });
