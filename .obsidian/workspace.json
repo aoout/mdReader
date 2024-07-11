@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +126,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md"
               }
+            }
+          },
+          {
+            "id": "08c61f9f3b13d0a7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOOKS/自控力/自控力.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -151,18 +166,19 @@
   },
   "active": "380fafd7245a0fe5",
   "lastOpenFiles": [
+    "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
     "Welcome.md",
+    "BOOKS/自控力/highlights.md",
+    "BOOKS/枪炮、病菌与钢铁/枪炮、病菌与钢铁.md",
+    "SHELF.md",
+    "test.md",
+    "README.md",
     "ASSETS/screenshot.png",
     "ASSETS",
-    "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
-    "BOOKS/自控力/highlights.md",
-    "README.md",
     "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
     "BOOKS/自控力/08　传染：为什么意志力会传染？/“我应该”的力量.md",
     "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/决定改善心情.md",
     "BOOKS/自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/两个自我导致的问题.md",
-    "BOOKS/枪炮、病菌与钢铁/枪炮、病菌与钢铁.md",
-    "SHELF.md",
     "BOOKS/自控力/自控力.md",
     "BOOKS/自控力/鸣谢.md",
     "BOOKS/自控力/10　结语.md",

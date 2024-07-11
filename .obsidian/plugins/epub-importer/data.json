@@ -8,10 +8,14 @@
   "assetsPath": "{{savePath}}/{{bookName}}/images",
   "granularity": 1,
   "mocName": "{{bookName}}",
-  "mocPropertysTemplate": "title: {{bookName}}\nauthor: {{author}}\npublisher: {{publisher}}\nstatus: false",
   "notePropertysTemplate": "created_time: {{created_time}}",
+  "oneNote": false,
+  "oneFolder": true,
+  "mocPropertysTemplate": "title: {{bookName}}\nauthor: {{author}}\npublisher: {{publisher}}\nstatus: false",
   "imageFormat": "![[imagePath]]",
   "autoOpenRightPanel": true,
-  "allbooks": false,
-  "removeDuplicateFolders": false
+  "removeDuplicateFolders": false,
+  "moreLog": false,
+  "leafID": "08c61f9f3b13d0a7",
+  "allbooks": false
 }
