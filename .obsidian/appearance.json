@@ -1,6 +1,6 @@
 {
-  "accentColor": "",
   "enabledCssSnippets": [
     "Cardsview"
-  ]
+  ],
+  "cssTheme": "Minimal"
 }

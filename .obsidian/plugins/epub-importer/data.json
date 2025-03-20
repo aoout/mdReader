@@ -1,21 +1,24 @@
 {
   "tag": "book",
   "libraries": [
-    "C:\\Users\\aoout\\Documents\\epubs"
+    ""
   ],
   "byDrag": false,
   "savePath": "BOOKS",
   "assetsPath": "{{savePath}}/{{bookName}}/images",
-  "granularity": 1,
-  "mocName": "{{bookName}}",
+  "backupPath": "",
+  "granularity": 2,
+  "mocName": "{{bookName}}(toc)",
+  "noteTemplate": "---\ncreated_time: {{created_time}}\n---\n{{content}}\n\n```booknav\n[[{{prev}}|prev]]\n[[{{next}}|next]]\n```",
+  "mocPropertysTemplate": "title: {{bookName}}\nauthor: {{author}}\npublisher: {{publisher}}\nstatus: false",
+  "imageFormat": "![[imagePath]]",
+  "reformatting": false,
+  "autoOpenRightPanel": true,
+  "removeDuplicateFolders": false,
+  "moreLog": true,
+  "leafID": "3230e0968496d870",
   "notePropertysTemplate": "created_time: {{created_time}}",
   "oneNote": false,
   "oneFolder": true,
-  "mocPropertysTemplate": "title: {{bookName}}\nauthor: {{author}}\npublisher: {{publisher}}\nstatus: false",
-  "imageFormat": "![[imagePath]]",
-  "autoOpenRightPanel": true,
-  "removeDuplicateFolders": false,
-  "moreLog": false,
-  "leafID": "08c61f9f3b13d0a7",
   "allbooks": false
 }

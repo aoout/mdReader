@@ -1,4 +1,7 @@
 {
   "promptDelete": false,
+  "showInlineTitle": false,
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "ASSETS",
   "alwaysUpdateLinks": true
 }

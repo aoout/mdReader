@@ -1,92 +1,135 @@
 {
   "main": {
-    "id": "19c03c53586adf0c",
+    "id": "7d1cfd2ece47afd8",
     "type": "split",
     "children": [
       {
-        "id": "3bc3d1b5d4df2f2e",
+        "id": "fccc816690b57bfb",
         "type": "tabs",
         "children": [
           {
-            "id": "380fafd7245a0fe5",
+            "id": "895db1b608f4c0e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
+                "file": "README.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "3d6b2a178e3c122d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b83f801d7371833d",
+    "id": "a0e7519713144c49",
     "type": "split",
     "children": [
       {
-        "id": "16fff1c82d650650",
+        "id": "bcdeee2279f3adb3",
         "type": "tabs",
         "children": [
           {
-            "id": "882c6b2a208acd7a",
+            "id": "6aa15cb9882cb506",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
-            "id": "53d155a5edacd528",
+            "id": "f94a1e7c30c774b6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "#book",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
-            "id": "d29af7de86d0ca80",
+            "id": "15d4dc0186d157e3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 253.5
   },
   "right": {
-    "id": "dc7740e8cbe54863",
+    "id": "36903844bedfe71e",
     "type": "split",
     "children": [
       {
-        "id": "d93e805ebeb38dc7",
+        "id": "7e9077ccc63a0b1a",
         "type": "tabs",
         "children": [
           {
-            "id": "a8d49c348aebc31a",
+            "id": "088f1078ef7c2ad5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
+                "file": "欢迎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,123 +137,118 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "欢迎 的反向链接列表"
             }
           },
           {
-            "id": "facb05c5212bc750",
+            "id": "053bd5f32f0c8c05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
+                "file": "欢迎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
             }
           },
           {
-            "id": "03810a7c0c409e84",
+            "id": "dab2538d2f805f85",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
-            "id": "5dbbb4a455a70ee0",
+            "id": "09494dcec45f60b7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md"
-              }
-            }
-          },
-          {
-            "id": "08c61f9f3b13d0a7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BOOKS/自控力/自控力.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "pinned": true
+              "icon": "lucide-list",
+              "title": "Welcome 的大纲"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 420.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "iconic:打开规则书": false,
+      "obsidian42-brat:BRAT": false,
       "custom-sort:Toggle custom sorting": false,
-      "obsidian42-brat:BRAT": false
+      "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false,
+      "cmdr:Epub Importer: 导入epub到库中": false
     }
   },
-  "active": "380fafd7245a0fe5",
+  "active": "3d6b2a178e3c122d",
   "lastOpenFiles": [
-    "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
-    "Welcome.md",
-    "BOOKS/自控力/highlights.md",
-    "BOOKS/枪炮、病菌与钢铁/枪炮、病菌与钢铁.md",
-    "SHELF.md",
-    "test.md",
     "README.md",
+    "Welcome.md",
     "ASSETS/screenshot.png",
-    "ASSETS",
-    "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？/“我应该”的力量.md",
-    "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？/决定改善心情.md",
-    "BOOKS/自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？/两个自我导致的问题.md",
-    "BOOKS/自控力/自控力.md",
-    "BOOKS/自控力/鸣谢.md",
-    "BOOKS/自控力/10　结语.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/本章总结.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/对内接受自我，对外控制行动.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/请勿吸烟.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/别吃那个苹果.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/我不想有这种感觉.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/这难道不讽刺吗？.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性/09　别读这章：“我不要”力量的局限性.md",
-    "BOOKS/自控力/09　别读这章：“我不要”力量的局限性",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？/本章总结.md",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？/群体的一员.md",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？/社会中的个人.md",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？/传染病的传播.md",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？/08　传染：为什么意志力会传染？.md",
-    "BOOKS/自控力/08　传染：为什么意志力会传染？",
-    "BOOKS/自控力/07　出售未来：及时享乐的经济学",
-    "BOOKS/自控力/06　“那又如何”：情绪低落为何会使人屈服于诱惑？",
-    "BOOKS/自控力/05　大脑的弥天大谎：为什么我们误把渴望当幸福？",
-    "BOOKS/自控力/04　容忍罪恶：为何善行之后会有恶行？",
-    "BOOKS/自控力/03　累到无力抵抗：为什么自控力和肌肉一样有极限？",
-    "BOOKS/自控力/02　意志力的本能：人生来就能抵制奶酪蛋糕的诱惑",
-    "BOOKS/自控力/01　我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？",
-    "BOOKS/自控力/images/Image00007.jpg",
-    "BOOKS/自控力/images/Image00005.jpg",
-    "BOOKS/自控力/images/Image00004.jpg",
-    "BOOKS/自控力/images/Image00003.jpg",
-    "BOOKS/自控力/images/Image00002.jpg",
-    "BOOKS/自控力/images/Image00001.jpg",
-    "BOOKS/自控力/images/Image00000.jpg",
-    "BOOKS/茶杯里的风暴/images/cup.png",
-    "BOOKS/茶杯里的风暴/images/cover.jpeg"
+    "ASSETS/screenshot.png",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/06 “那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
+    "ASSETS/Pasted image 20250320114225.png",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑/两种不同的威胁.md",
+    "ASSETS/Pasted image 20250320114203.png",
+    "BOOKS/自控力/自控力 (2).md",
+    "BOOKS/金枝/highlights.md",
+    "ASSETS/showcase.gif",
+    "SHELF.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/04 容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
+    "BOOKS/自控力/自控力(toc).md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/07 出售未来：及时享乐的经济学/没有出路：预先承诺的价值.md",
+    "BOOKS/自控力/highlights.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？/为什么自控力存在局限？.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑/自控力太强的代价.md",
+    "Pasted image 20250320112632.png",
+    "Pasted image 20250320113121.png",
+    "Pasted image 20250320112908.png",
+    "Pasted image 20250320112851.png",
+    "Pasted image 20250320112819.png",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/社会中的个人.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/08 传染：为什么意志力会传染？.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/群体的一员.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/传染病的传播.md",
+    "BOOKS/金枝/上册/第七章　神灵附体.md",
+    "BOOKS/金枝/上册/第一章 林中之王/第一节　狄安娜和威尔比厄斯.md",
+    "BOOKS/金枝/上册/第一章 林中之王/第一章 林中之王.md",
+    "BOOKS/枪炮、病菌与钢铁/第二部分 粮食生产的出现和传播/第五章 历史上的穷与富.md",
+    "BOOKS/枪炮、病菌与钢铁/highlights.md",
+    "BOOKS/枪炮、病菌与钢铁/第一部分 从伊甸园到卡哈马卡/第一章 走上起跑线.md",
+    "sortspec.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/09 别读这章：“我不要”力量的局限性/别吃那个苹果.md",
+    "Books.jsx",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/09 别读这章：“我不要”力量的局限性",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/07 出售未来：及时享乐的经济学",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/06 “那又如何”：情绪低落为何会使人屈服于诱惑？",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/05 大脑的弥天大谎：为什么我们误把渴望当幸福？",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/04 容忍罪恶：为何善行之后会有恶行？",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/01 我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？"
   ]
 }

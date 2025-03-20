@@ -1,0 +1,81 @@
+.block-language-booknav {
+    border-top: 2px dashed var(--background-modifier-border);
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+}
+
+.booknav p {
+    background: var(--background-secondary);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: start;
+    align-items: stretch;
+    border-radius: 0.25rem;
+}
+
+.booknav a {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+}
+
+.booknav a.prev {
+    justify-content: start;
+}
+
+.booknav a.prev .icon {
+    margin-right: 1rem;
+}
+
+.booknav a.prev .title {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.booknav a.prev .title::before {
+    content: 'Previous';
+    color: var(--text-faint);
+    font-size: 0.8rem;
+}
+
+.booknav a.next {
+    justify-content: end;
+}
+
+.booknav a.next .icon {
+    margin-left: 1rem;
+}
+
+.booknav a.next .title {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.booknav a.next .title::before {
+    content: 'Next';
+    color: var(--text-faint);
+    font-size: 0.8rem;
+}
+
+.booknav a.prev .icon svg, .booknav a.next .icon svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.booknav a.center {
+    align-items: center;
+}
+
+.booknav a:hover {
+    background: var(--background-modifier-hover);
+    border-radius: inherit;
+}

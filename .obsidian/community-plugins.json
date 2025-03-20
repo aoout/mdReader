@@ -1,8 +1,15 @@
 [
   "epub-importer",
+  "booknav",
   "custom-sort",
+  "android-nomedia",
   "obsidian42-brat",
   "highlighter",
+  "hot-reload",
+  "metadata-hider",
+  "datacore",
   "dataview",
-  "android-nomedia"
+  "iconic",
+  "cmdr",
+  "obsidian-minimal-settings"
 ]

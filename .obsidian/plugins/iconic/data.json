@@ -1,0 +1,122 @@
+{
+  "biggerIcons": "on",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "README.md": {
+      "icon": "lucide-info"
+    },
+    "Welcome.md": {
+      "icon": "lucide-ferris-wheel"
+    },
+    "sortspec.md": {
+      "icon": "custom-sort-icon-active"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "c0N5M",
+      "name": "SHELF",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "SHELF"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-sprout"
+    },
+    {
+      "id": "mCzHr",
+      "name": "highlights",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains",
+          "value": "highlights"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-highlighter",
+      "color": "yellow"
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "mLEa1",
+      "name": "BOOK",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "endsWith",
+          "value": "BOOKS/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-book",
+      "color": "red"
+    },
+    {
+      "id": "TYXpN",
+      "name": "BOOKS",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "BOOKS"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-book-copy",
+      "color": "cyan"
+    },
+    {
+      "id": "Qo7pB",
+      "name": "ASSETS",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "ASSETS"
+        },
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "images"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-image",
+      "color": "green"
+    }
+  ]
+}

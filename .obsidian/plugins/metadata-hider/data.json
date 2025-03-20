@@ -1,0 +1,18 @@
+{
+  "autoFold": false,
+  "hideEmptyEntry": false,
+  "hideEmptyEntryInSideDock": false,
+  "propertiesVisible": "",
+  "propertyHideAll": "hide",
+  "entries": [
+    {
+      "name": "created_time",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": true,
+        "fileProperties": true,
+        "allProperties": true
+      }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "blacksmithgu/datacore",
     "aoout/obsidian-highlighter"
   ],
   "pluginSubListFrozenVersion": [],
@@ -11,5 +12,6 @@
   "loggingPath": "BRAT-log",
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
-  "notificationsEnabled": true
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
 }
