@@ -4,6 +4,6 @@
 
 ***
 
-下面是一些截图：
+下面是一个简单的 gif 演示：
 
-![](showcase.gif)
+![](ASSETS/showcase.gif)
