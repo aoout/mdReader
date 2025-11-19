@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - tags.contains("book")
+    order:
+      - file.name
+    image: cover
+    cardSize: 190
+    imageAspectRatio: 1.5
+    imageFit: ""

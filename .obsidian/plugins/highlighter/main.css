@@ -1,0 +1,38 @@
+/* src/styles.css */
+.highlighter-popover-container {
+  min-width: 200px;
+  max-width: 400px;
+}
+.highlighter-content {
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 4px;
+  background-color: var(--text-highlight-bg);
+  border-radius: 4px;
+}
+.highlighter-comment-container {
+  border-top: 1px solid var(--background-modifier-border);
+  padding-top: 8px;
+}
+.highlighter-comment-container textarea {
+  width: 100%;
+  min-height: 60px;
+  resize: vertical;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 0.9em;
+}
+.highlighter-comment-container textarea:focus {
+  outline: none;
+  border-color: var(--interactive-accent);
+}
+.highlighter-comment-container p {
+  margin: 0;
+  padding: 4px;
+  font-size: 0.9em;
+}
+.highlighter-comment-container p em {
+  color: var(--text-muted);
+}

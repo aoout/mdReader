@@ -5,8 +5,7 @@ publisher: 北京联合出版公司
 status: false
 tags:
   - book
-cover: BOOKS/金枝/images/cover.jpeg
-
+cover: "[[BOOKS/金枝/images/cover.jpeg]]"
 ---
 - [[BOOKS/金枝/目录|目录]]
 - [[BOOKS/金枝/上册/上册|上册]]

@@ -596,6 +596,26 @@ var HighlightBox = class {
       await this.app.vault.modify(noteFile, HighlightsBuilder.map2markdown(mapNew, template));
     }
   }
+  async updateComment(sourcePath, highlight3, comment) {
+    const notePath = this.getHighlightsNotePath();
+    const noteFile = this.app.vault.getAbstractFileByPath(notePath);
+    if (!(noteFile instanceof import_obsidian.TFile))
+      return;
+    const content = await this.app.vault.read(noteFile);
+    const map = HighlightsBuilder.markdown2map(content, this.settings.template);
+    const title = sourcePath.split("/").splice(-1)[0].split(".md")[0];
+    const note = map.get(title);
+    if (note) {
+      const item = note.find((item2) => item2.content === highlight3);
+      if (item)
+        item.comment = comment;
+      else
+        note.push({content: highlight3, comment});
+    } else {
+      map.set(title, [{content: highlight3, comment}]);
+    }
+    await this.app.vault.modify(noteFile, HighlightsBuilder.map2markdown(map, this.settings.template));
+  }
 };
 var MocBox = class extends HighlightBox {
   static findBox(app, path4, settings) {
@@ -708,121 +728,182 @@ var HighlighterSettingsTab = class extends import_obsidian3.PluginSettingTab {
 // src/popover.ts
 var import_obsidian4 = __toModule(require("obsidian"));
 var path2 = require_path_browserify().posix;
+var POPOVER_STYLES = {
+  container: {
+    padding: "6px",
+    backgroundColor: "var(--background-primary)",
+    borderRadius: "4px"
+  },
+  textarea: {
+    width: "100%",
+    minHeight: "60px",
+    maxHeight: "120px",
+    padding: "6px",
+    border: "none",
+    resize: "vertical",
+    fontFamily: "var(--font-text)",
+    backgroundColor: "var(--background-primary)",
+    color: "var(--text-normal)"
+  },
+  readonlyContainer: {
+    padding: "6px",
+    backgroundColor: "var(--background-primary)",
+    borderRadius: "4px"
+  },
+  readonlyContent: {
+    maxHeight: "150px",
+    overflowY: "auto",
+    color: "var(--text-normal)",
+    padding: "4px"
+  }
+};
 var Popover = class {
   constructor(plugin, textGetter) {
+    this.plugin = plugin;
+    this.textGetter = textGetter;
     this.cursorClientX = 0;
     this.cursorClientY = 0;
-    this.popoverShown = false;
     this.saveMousePosition = (event) => {
       this.cursorClientX = event.clientX;
       this.cursorClientY = event.clientY;
     };
-    this.handlePopoverEvents = async (event, show) => {
-      const mode = this.plugin.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView).getMode();
-      if (this.plugin.settings.popupType == "always Editable" || mode == "source" && this.plugin.settings.popupType != "always Readonly") {
-        this.showEditablePopup(event);
-      } else {
-        this.showReadonlyPopup(event, show);
-      }
-    };
-    this.showEditablePopup = async (event) => {
-      if (event.ctrlKey || event.metaKey) {
-        const activeView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
-        if (!activeView)
-          return;
-        const el = event.currentTarget;
-        const activeFile = this.plugin.app.workspace.getActiveFile();
-        const box = HighlightBox.type(this.plugin.settings.boxType).findBox(this.plugin.app, activeFile.path, this.plugin.settings);
-        const folder = path2.dirname(box.path);
-        const highlightsPath = folder + "/" + this.plugin.settings.storage + ".md";
-        this.plugin.app.workspace.trigger("hover-link", {
-          event,
-          source: "highlighter",
-          hoverParent: activeView.containerEl,
-          targetEl: el,
-          linktext: highlightsPath,
-          sourcePath: highlightsPath
-        });
-        const content = el.firstChild?.textContent;
-        const comment = await this.plugin.getCommentByContent(content);
-        this.plugin.registerEvent(this.plugin.app.workspace.on("active-leaf-change", () => {
-          if (comment != "Not any comment yet") {
-            this.plugin.jumpToContent(comment);
-          } else {
-            this.plugin.jumpToContent(content);
-          }
-        }));
-      }
-    };
-    this.showReadonlyPopup = async (event, show) => {
-      if (event.ctrlKey || event.metaKey) {
-        const activeView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
-        if (!activeView)
-          return;
-        const el = event.currentTarget;
-        if (show) {
-          if (this.popoverShown)
-            return;
-          const popover = new import_obsidian4.HoverPopover(activeView, el, null);
-          popover.onload = () => this.popoverShown = true;
-          popover.onunload = () => this.popoverShown = false;
-          popover.hoverEl.innerHTML = `<div class="markdown-embed is-loaded" style="height: revert">
-					<div class="markdown-embed-content">
-						<div class="markdown-preview-view markdown-rendered node-insert-event show-indentation-guide allow-fold-headings allow-fold-lists">
-							<div class="markdown-preview-sizer markdown-preview-section">
-								<p>${await this.textGetter(el.firstChild?.textContent)}</p>
-							</div>
-						</div>
-					</div>
-				</div>`;
-        } else {
-          activeView.hoverPopover = null;
-        }
-      }
-    };
     this.onKeyChange = (event) => {
-      if (event.key === "Control") {
-        const isKeyDown = event.type === "keydown";
-        const commentsEls = document.querySelectorAll("[class='cm-highlight']").values();
-        const commentsEls2 = document.querySelectorAll("mark").values();
-        [...commentsEls, ...commentsEls2].forEach((el) => {
-          if (isKeyDown) {
-            el.addEventListener("mouseover", (e) => this.handlePopoverEvents(e, true));
-            el.addEventListener("mousemove", (e) => this.handlePopoverEvents(e, true));
-            el.addEventListener("mouseleave", (e) => this.handlePopoverEvents(e, false));
-          } else {
-            el.removeEventListener("mouseover", (e) => this.handlePopoverEvents(e, true));
-            el.removeEventListener("mousemove", (e) => this.handlePopoverEvents(e, true));
-            el.removeEventListener("mouseleave", (e) => this.handlePopoverEvents(e, false));
-          }
-        });
-        if (isKeyDown) {
-          const hoveredEls = document.querySelectorAll(":hover");
-          const hoveredElement = hoveredEls[hoveredEls.length - 1];
-          if (hoveredElement) {
-            setTimeout(() => {
-              hoveredElement.dispatchEvent(new MouseEvent("mousemove", {
-                bubbles: true,
-                cancelable: true,
-                ctrlKey: true,
-                metaKey: true,
-                clientX: this.cursorClientX,
-                clientY: this.cursorClientY,
-                view: window
-              }));
-            }, 50);
-          }
-        }
-      }
+      if (event.key !== "Control")
+        return;
+      const isKeyDown = event.type === "keydown";
+      const highlightEls = [
+        ...document.querySelectorAll("[class='cm-highlight']"),
+        ...document.querySelectorAll("mark")
+      ];
+      highlightEls.forEach((el) => {
+        this.togglePopoverEvents(el, isKeyDown);
+      });
+      if (isKeyDown)
+        this.triggerMousemoveOnHovered();
     };
-    this.plugin = plugin;
-    this.textGetter = textGetter;
     this.init();
   }
   init() {
     this.plugin.registerDomEvent(document, "mousemove", this.saveMousePosition);
     this.plugin.registerDomEvent(document, "keydown", this.onKeyChange);
     this.plugin.registerDomEvent(document, "keyup", this.onKeyChange);
+  }
+  togglePopoverEvents(el, add) {
+    const handlerShow = (e) => this.handlePopoverEvents(e, true);
+    const handlerHide = (e) => this.handlePopoverEvents(e, false);
+    if (add) {
+      el.addEventListener("mouseover", handlerShow);
+      el.addEventListener("mousemove", handlerShow);
+      el.addEventListener("mouseleave", handlerHide);
+    } else {
+      el.removeEventListener("mouseover", handlerShow);
+      el.removeEventListener("mousemove", handlerShow);
+      el.removeEventListener("mouseleave", handlerHide);
+    }
+  }
+  triggerMousemoveOnHovered() {
+    const hoveredEls = document.querySelectorAll(":hover");
+    const lastHovered = hoveredEls[hoveredEls.length - 1];
+    if (!lastHovered)
+      return;
+    setTimeout(() => {
+      lastHovered.dispatchEvent(new MouseEvent("mousemove", {
+        bubbles: true,
+        cancelable: true,
+        ctrlKey: true,
+        metaKey: true,
+        clientX: this.cursorClientX,
+        clientY: this.cursorClientY,
+        view: window
+      }));
+    }, 50);
+  }
+  async handlePopoverEvents(event, show) {
+    const activeView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+    if (!activeView)
+      return;
+    const mode = activeView.getMode();
+    const {popupType} = this.plugin.settings;
+    if (popupType === "always Editable" || mode === "source" && popupType !== "always Readonly") {
+      await this.showEditablePopup(event, activeView);
+    } else {
+      await this.showReadonlyPopup(event, show, activeView);
+    }
+  }
+  async showEditablePopup(event, activeView) {
+    if (!(event.ctrlKey || event.metaKey))
+      return;
+    const el = event.currentTarget;
+    const content = el.firstChild?.textContent;
+    if (!content)
+      return;
+    let comment = "";
+    comment = await this.plugin.getCommentByContent(content);
+    if (comment === "Not any comment yet")
+      comment = "";
+    const popover = new import_obsidian4.HoverPopover(activeView, el, null);
+    const inputContainer = this.createInputContainer();
+    const input = this.createTextarea(comment);
+    const onEnter = async (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        await this.saveCommentToHighlightFile(content, input.value.trim());
+        new import_obsidian4.Notice("Comment saved successfully");
+        popover.hoverEl.hide();
+      }
+    };
+    const onEsc = (e) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        popover.hoverEl.hide();
+      }
+    };
+    input.addEventListener("keydown", onEnter);
+    input.addEventListener("keydown", onEsc);
+    inputContainer.appendChild(input);
+    popover.hoverEl.appendChild(inputContainer);
+    setTimeout(() => input.focus(), 0);
+  }
+  createInputContainer() {
+    const container = document.createElement("div");
+    container.className = "highlighter-popover";
+    Object.assign(container.style, POPOVER_STYLES.container);
+    return container;
+  }
+  createTextarea(value) {
+    const textarea = document.createElement("textarea");
+    textarea.value = value;
+    textarea.placeholder = "\u8F93\u5165...";
+    textarea.setAttribute("aria-label", "\u8BC4\u8BBA\u8F93\u5165\u6846");
+    Object.assign(textarea.style, POPOVER_STYLES.textarea);
+    return textarea;
+  }
+  async saveCommentToHighlightFile(content, comment) {
+    const activeFile = this.plugin.app.workspace.getActiveFile();
+    if (!activeFile)
+      return;
+    const box = HighlightBox.type(this.plugin.settings.boxType).findBox(this.plugin.app, activeFile.path, this.plugin.settings);
+    box.updateComment(activeFile.path, content, comment);
+  }
+  async showReadonlyPopup(event, show, activeView) {
+    if (!(event.ctrlKey || event.metaKey))
+      return;
+    const el = event.currentTarget;
+    if (show) {
+      const popover = new import_obsidian4.HoverPopover(activeView, el, null);
+      const contentText = await this.textGetter(el.firstChild?.textContent || "");
+      const container = document.createElement("div");
+      container.className = "highlighter-popover";
+      Object.assign(container.style, POPOVER_STYLES.readonlyContainer);
+      const contentDiv = document.createElement("div");
+      contentDiv.className = "markdown-preview-view markdown-rendered";
+      Object.assign(contentDiv.style, POPOVER_STYLES.readonlyContent);
+      contentDiv.innerHTML = `<p>${contentText}</p>`;
+      container.appendChild(contentDiv);
+      popover.hoverEl.appendChild(container);
+    } else {
+      activeView.hoverPopover = null;
+    }
   }
 };
 
@@ -853,7 +934,6 @@ var HighlighterPlugin = class extends import_obsidian5.Plugin {
     };
   }
   async onload() {
-    console.log("Plugin Highlighter loaded.");
     await this.loadSettings();
     this.addSettingTab(new HighlighterSettingsTab(this.app, this));
     this.addCommand({
@@ -917,14 +997,12 @@ var HighlighterPlugin = class extends import_obsidian5.Plugin {
         const activeFile = this.app.workspace.getActiveFile();
         if (!activeFile)
           return false;
-        console.log(activeFile.path);
         const box = HighlightBox.type(this.settings.boxType).findBox(this.app, activeFile.path, this.settings);
         if (!box)
           return false;
         if (checking)
           return true;
         const notes = box.getNotes();
-        console.log(notes);
         const folder = path3.dirname(box.path);
         const highlightsPath = folder + "/" + this.settings.storage + ".md";
         this.app.vault.read(this.app.vault.getAbstractFileByPath(highlightsPath)).then((highlightsContent) => {

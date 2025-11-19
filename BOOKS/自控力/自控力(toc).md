@@ -1,12 +1,11 @@
 ---
 title: 自控力
 author: 凯利•麦格尼格尔(Kelly McGonigal)
-publisher: 
+publisher:
 status: false
 tags:
   - book
-cover: BOOKS/自控力/images/cover.jpeg
-
+cover: "[[BOOKS/自控力/images/cover.jpeg]]"
 ---
 - [[BOOKS/自控力/导　言 欢迎阅读意志力入门/导　言 欢迎阅读意志力入门|导　言 欢迎阅读意志力入门]]
 	- [[BOOKS/自控力/导　言 欢迎阅读意志力入门/为了成功做到自控，你必须知道自己为何失败|为了成功做到自控，你必须知道自己为何失败]]

@@ -4,6 +4,4 @@
 
 ***
 
-下面是一个简单的 gif 演示：
-
-![](ASSETS/showcase.gif)
+![[SHELF.png]]

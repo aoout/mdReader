@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fccc816690b57bfb",
+        "id": "4cff37bd53625e55",
         "type": "tabs",
         "children": [
           {
-            "id": "895db1b608f4c0e8",
+            "id": "6d002dab66b04213",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "3d6b2a178e3c122d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "有一天，他要搜寻的那个人会杀死他并成为新祭司。这就是这座圣殿的规定：后来者只有杀死现任祭司才能成为新一任祭司，直到另一个更强大或更狡诈的人杀死他。",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,69 +152,99 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "BOOKS/金枝/上册/第三章　交感巫术/第一节　巫术的原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Welcome 的大纲"
+              "title": "第一节　巫术的原理 的大纲"
+            }
+          },
+          {
+            "id": "ffa9e0463a1f8e84",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOOKS/金枝/金枝(toc).md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "金枝(toc)"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 420.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "iconic:打开规则书": false,
-      "obsidian42-brat:BRAT": false,
-      "custom-sort:Toggle custom sorting": false,
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian42-brat:BRAT": false,
+      "iconic:打开规则书": false,
       "cmdr:Epub Importer: 导入epub到库中": false
     }
   },
-  "active": "3d6b2a178e3c122d",
+  "active": "6d002dab66b04213",
   "lastOpenFiles": [
+    "sortspec.md",
+    "SHELF.base",
     "README.md",
-    "Welcome.md",
-    "ASSETS/screenshot.png",
-    "ASSETS/screenshot.png",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/06 “那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
-    "ASSETS/Pasted image 20250320114225.png",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑/两种不同的威胁.md",
-    "ASSETS/Pasted image 20250320114203.png",
-    "BOOKS/自控力/自控力 (2).md",
+    "BOOKS/金枝/目录.md",
     "BOOKS/金枝/highlights.md",
-    "ASSETS/showcase.gif",
-    "SHELF.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/04 容忍罪恶：为何善行之后会有恶行？/当罪恶看起来像美德.md",
+    "Welcome.md",
+    "BOOKS/金枝/上册/第一章 林中之王/第一节　狄安娜和威尔比厄斯.md",
     "BOOKS/自控力/自控力(toc).md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/07 出售未来：及时享乐的经济学/没有出路：预先承诺的价值.md",
-    "BOOKS/自控力/highlights.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？/为什么自控力存在局限？.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑/自控力太强的代价.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/06 “那又如何”：情绪低落为何会使人屈服于诱惑？/如果你吃了这块饼干，恐怖分子就赢了.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/08 传染：为什么意志力会传染？.md",
+    "BOOKS/金枝/上册/第三章　交感巫术/第一节　巫术的原理.md",
+    "BOOKS/金枝/下册/第六十六章　民间故事中灵魂寄存于体外的观念.md",
+    "BOOKS/金枝/下册/第六十三章　篝火节的含义/第六十三章　篝火节的含义.md",
+    "BOOKS/金枝/金枝(toc).md",
+    "BOOKS/金枝/下册/第五十七章　公众的替罪羊/第三节　定期用小船、牲畜和人送走妖魔.md",
+    "BOOKS/金枝/下册/第五十章　神体圣餐/第二节　阿兹特克人的圣餐传统.md",
+    "BOOKS/金枝/下册/第五十章　神体圣餐/第一节　新谷当圣餐.md",
+    "BOOKS/金枝/下册/第四十六章　各国的五谷妈妈/第四节　双重拟人：谷物是妈妈也是女儿.md",
+    "BOOKS/金枝/上册/第三十九章　奥西里斯的祭祀仪式/第二节　官方祭祀仪式.md",
+    "BOOKS/金枝/上册/第二十六章　献祭王子.md",
+    "BOOKS/金枝/上册/第二十一章　禁忌的物/第六节　头发禁忌.md",
+    "BOOKS/金枝/上册/第三章　交感巫术/第二节　顺势或模仿巫术.md",
+    "BOOKS/金枝/上册/第九章　树神崇拜/第九章　树神崇拜.md",
+    "BOOKS/金枝/上册/第十七章　王位的重负/第二节　神权与王权的分离.md",
+    "BOOKS/金枝/上册/前言.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/传染病的传播.md",
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？/训练“意志力肌肉”.md",
+    "ASSETS/Pasted image 20250628212601.png",
+    "ASSETS/SHELF.png",
+    "ASSETS/showcase.gif",
+    "ASSETS/screenshot.png",
+    "ASSETS/Pasted image 20250320114225.png",
+    "ASSETS/Pasted image 20250320114203.png",
     "Pasted image 20250320112632.png",
     "Pasted image 20250320113121.png",
     "Pasted image 20250320112908.png",
     "Pasted image 20250320112851.png",
-    "Pasted image 20250320112819.png",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/社会中的个人.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/08 传染：为什么意志力会传染？.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/群体的一员.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/传染病的传播.md",
-    "BOOKS/金枝/上册/第七章　神灵附体.md",
-    "BOOKS/金枝/上册/第一章 林中之王/第一节　狄安娜和威尔比厄斯.md",
-    "BOOKS/金枝/上册/第一章 林中之王/第一章 林中之王.md",
-    "BOOKS/枪炮、病菌与钢铁/第二部分 粮食生产的出现和传播/第五章 历史上的穷与富.md",
-    "BOOKS/枪炮、病菌与钢铁/highlights.md",
-    "BOOKS/枪炮、病菌与钢铁/第一部分 从伊甸园到卡哈马卡/第一章 走上起跑线.md",
-    "sortspec.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/09 别读这章：“我不要”力量的局限性/别吃那个苹果.md",
     "Books.jsx",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/09 别读这章：“我不要”力量的局限性",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？",
@@ -248,7 +253,6 @@
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/05 大脑的弥天大谎：为什么我们误把渴望当幸福？",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/04 容忍罪恶：为何善行之后会有恶行？",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/01 我要做，我不要，我想要：什么是意志力？为什么意志力至关重要？"
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑"
   ]
 }

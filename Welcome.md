@@ -7,13 +7,9 @@
 
 像是该库根目录下的三个文件夹，代表了三本书。
 
-```dataview
-table title,author,publisher from #book
-```
+在 [[SHELF.base]] 内，你可以以更直观的方式浏览你所有的书籍，通过点击封面图片，你就可以进入对应的书籍页面，就像这样：
 
-在[[SHELF]]笔记内，你可以以更直观的方式浏览你所有的书籍，通过点击封面图片，你就可以进入对应的书籍页面，就像这样：
-
-![[SHELF]]
+![[SHELF.base]]
 
 # Highlighter
 

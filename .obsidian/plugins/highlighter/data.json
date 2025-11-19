@@ -3,5 +3,8 @@
     "book"
   ],
   "boxType": "MOC",
-  "template": ">{{highlight}}"
+  "template": ">{{highlight}}",
+  "popupType": "same as active file mode",
+  "storage": "highlights",
+  "autoUpdate": false
 }

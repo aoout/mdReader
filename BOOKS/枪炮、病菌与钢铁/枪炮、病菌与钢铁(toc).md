@@ -1,12 +1,11 @@
 ---
 title: 枪炮、病菌与钢铁
 author: " 贾雷德·戴蒙德 "
-publisher: 
+publisher:
 status: false
 tags:
   - book
-cover: BOOKS/枪炮、病菌与钢铁/images/cover00271.jpeg
-
+cover: "[[BOOKS/枪炮、病菌与钢铁/images/cover00271.jpeg]]"
 ---
 - [[BOOKS/枪炮、病菌与钢铁/封面|封面]]
 - [[BOOKS/枪炮、病菌与钢铁/封二|封二]]
