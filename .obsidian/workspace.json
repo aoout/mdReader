@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "BOOKS/金枝/金枝(toc).md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "金枝(toc)"
             }
           }
         ]
@@ -192,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5,
-    "collapsed": true
+    "width": 420.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,18 +200,35 @@
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
       "custom-sort:Toggle custom sorting": false,
-      "obsidian42-brat:BRAT": false,
       "iconic:打开规则书": false,
       "cmdr:Epub Importer: 导入epub到库中": false
     }
   },
-  "active": "6d002dab66b04213",
+  "active": "6aa15cb9882cb506",
   "lastOpenFiles": [
+    "BOOKS/金枝/Cover.md",
+    "BOOKS/金枝/highlights.md",
+    "BOOKS/金枝/上册/第五章　操控天气的巫术/第一节　为公众服务的巫师.md",
+    "BOOKS/金枝/上册/第五章　操控天气的巫术/第三节　用巫术控制太阳.md",
+    "BOOKS/金枝/金枝(toc).md",
+    "README.md",
+    "BOOKS/自控力/highlights.md",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library).md",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00983.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00982.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00981.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00980.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00979.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00978.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00977.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00976.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00975.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images/image00974.jpeg",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)/images",
+    "BOOKS/博尔赫斯全集第一辑(套装共16册) (豪尔赫·路易斯·博尔赫斯 (Jorge Luis Borges)) (Z-Library)",
     "sortspec.md",
     "SHELF.base",
-    "README.md",
     "BOOKS/金枝/目录.md",
-    "BOOKS/金枝/highlights.md",
     "Welcome.md",
     "BOOKS/金枝/上册/第一章 林中之王/第一节　狄安娜和威尔比厄斯.md",
     "BOOKS/自控力/自控力(toc).md",
@@ -221,7 +237,6 @@
     "BOOKS/金枝/上册/第三章　交感巫术/第一节　巫术的原理.md",
     "BOOKS/金枝/下册/第六十六章　民间故事中灵魂寄存于体外的观念.md",
     "BOOKS/金枝/下册/第六十三章　篝火节的含义/第六十三章　篝火节的含义.md",
-    "BOOKS/金枝/金枝(toc).md",
     "BOOKS/金枝/下册/第五十七章　公众的替罪羊/第三节　定期用小船、牲畜和人送走妖魔.md",
     "BOOKS/金枝/下册/第五十章　神体圣餐/第二节　阿兹特克人的圣餐传统.md",
     "BOOKS/金枝/下册/第五十章　神体圣餐/第一节　新谷当圣餐.md",
@@ -230,29 +245,12 @@
     "BOOKS/金枝/上册/第二十六章　献祭王子.md",
     "BOOKS/金枝/上册/第二十一章　禁忌的物/第六节　头发禁忌.md",
     "BOOKS/金枝/上册/第三章　交感巫术/第二节　顺势或模仿巫术.md",
-    "BOOKS/金枝/上册/第九章　树神崇拜/第九章　树神崇拜.md",
-    "BOOKS/金枝/上册/第十七章　王位的重负/第二节　神权与王权的分离.md",
-    "BOOKS/金枝/上册/前言.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？/传染病的传播.md",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？/训练“意志力肌肉”.md",
-    "ASSETS/Pasted image 20250628212601.png",
-    "ASSETS/SHELF.png",
-    "ASSETS/showcase.gif",
-    "ASSETS/screenshot.png",
-    "ASSETS/Pasted image 20250320114225.png",
-    "ASSETS/Pasted image 20250320114203.png",
-    "Pasted image 20250320112632.png",
-    "Pasted image 20250320113121.png",
-    "Pasted image 20250320112908.png",
-    "Pasted image 20250320112851.png",
     "Books.jsx",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/09 别读这章：“我不要”力量的局限性",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/08 传染：为什么意志力会传染？",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/07 出售未来：及时享乐的经济学",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/06 “那又如何”：情绪低落为何会使人屈服于诱惑？",
     "BOOKS/自控力/导　言 欢迎阅读意志力入门/05 大脑的弥天大谎：为什么我们误把渴望当幸福？",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/04 容忍罪恶：为何善行之后会有恶行？",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/03 累到无力抵抗：为什么自控力和肌肉一样有极限？",
-    "BOOKS/自控力/导　言 欢迎阅读意志力入门/02 意志力的本能：人生来就能抵制奶酪蛋糕的诱惑"
+    "BOOKS/自控力/导　言 欢迎阅读意志力入门/04 容忍罪恶：为何善行之后会有恶行？"
   ]
 }
